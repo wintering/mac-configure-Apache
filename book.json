@@ -1,0 +1,76 @@
+{
+	"title": "Mac 配置 Apache 服务器",
+	"description": "记录配置服务器的简单步骤",
+	"author": "snow",
+	"root": ".",
+	"language": "zh-hans",
+	"direction": "ltr",
+	"gitbook": "3.2.3",
+	"plugins": [
+		"-lunr", 
+		"-search",
+		"-highlight", 
+		"-sharing",
+		"search-plus",
+		"expandable-chapters-small",
+		"advanced-emoji",
+		"anchors",
+		"github",
+		"github-buttons",
+		"sharing-plus",
+		"splitter",
+		"prism", 
+		"prism-themes",
+		"include-codeblock",
+		"ace",
+		"emphasize"
+	],
+	"pluginsConfig": {
+   		"github": {
+     	   "url": "https://github.com/wintering"
+    	},
+    	"github-buttons": {
+            "repo": "wintering/mac-configure-Apache",
+            "types": [
+                "star",
+                "watch",
+                "fork"
+            ],
+            "size": "small"
+        },
+        "sharing": {
+			"douban": false,
+			"facebook": false,
+			"google": true,
+			"hatenaBookmark": false,
+			"instapaper": false,
+			"line": true,
+			"linkedin": true,
+			"messenger": false,
+			"pocket": false,
+			"qq": false,
+			"qzone": true,
+			"stumbleupon": false,
+			"twitter": false,
+			"viber": false,
+			"vk": false,
+			"weibo": true,
+			"whatsapp": false,
+			"all": [
+			   "facebook", "google", "twitter",
+			   "weibo", "instapaper", "linkedin",
+			   "pocket", "stumbleupon"
+			]
+   		},
+   		"prism": {
+     		"css": [
+       			"prism-themes/themes/prism-duotone-dark.css"
+     		]
+   		},
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "edit": true
+        }
+	}
+}
